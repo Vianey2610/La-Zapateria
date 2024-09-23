@@ -1,0 +1,32 @@
+productos([
+  {
+    "folio": 101,
+    "descripcion": "Tenis deportivos de hombre",
+    "talla": "9",
+    "precio": "$1,200"
+  },
+  {
+    "folio": 102,
+    "descripcion": "Sandalias casuales de mujer",
+    "talla": "7",
+    "precio": "$750"
+  },
+  {
+    "folio": 103,
+    "descripcion": "Botas de cuero para hombre",
+    "talla": "10",
+    "precio": "$2,300"
+  },
+  {
+    "folio": 104,
+    "descripcion": "Zapatos formales de mujer",
+    "talla": "6",
+    "precio": "$1,800"
+  },
+  {
+    "folio": 105,
+    "descripcion": "Zapatillas de tacón alto",
+    "talla": "8",
+    "precio": "$1,500"
+  }
+])

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Zapateria</title>
+	</head>
+
+	<body>
+		<img src="zapatos rojos.jpeg"><h1 align="center">Zapateria "Zapatos Rojos"</h1>
+		<h3 align="right">Direccion: Arroyo Seco <br> Tel: 4871234567 <br> Correo: l20141328@quereatro.tecnm.mx</h3>
+		
+		<div class="button-container">
+            <button onclick="mostrarProductos()">Ver lista De Productos</button>
+        </div>
+		<div id="resultados"></div>
+		
+		<script src="tabla.js"></script>
+		<script>
+			function mostrarProductos() {
+                var script = document.createElement('script');
+                script.src = 'productos.jsonp';
+                document.body.appendChild(script);
+            }
+		</script>
+		
+	</body>
+</html>
